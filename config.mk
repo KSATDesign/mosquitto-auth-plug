@@ -12,11 +12,11 @@ BACKEND_FILES ?= no
 BACKEND_MEMCACHED ?= no
 
 # Specify the path to the Mosquitto sources here
-# MOSQUITTO_SRC = /usr/local/Cellar/mosquitto/1.4.12
-MOSQUITTO_SRC =
+
+MOSQUITTO_SRC = ~/mosquitto
 
 # Specify the path the OpenSSL here
-OPENSSLDIR = /usr
+OPENSSLDIR = /usr/lib/ssl
 
 # Add support for django hashers algorithm name
 SUPPORT_DJANGO_HASHERS ?= no
